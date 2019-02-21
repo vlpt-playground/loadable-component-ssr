@@ -1,0 +1,76 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.28.3",
+  "hash": "a4e79d72643c8fbf8196",
+  "publicPath": "",
+  "outputPath": "/Users/velopert/workspace/fc7/loadable-component-ssr/dist",
+  "assetsByChunkName": {
+    "main": [
+      "server.js",
+      "server.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "server.js",
+      "size": 36010,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ]
+    },
+    {
+      "name": "server.js.map",
+      "size": 27610,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ]
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "server.js",
+        "server.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "server.js",
+        "server.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-RabbitPage": {
+      "chunks": [],
+      "assets": [],
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-TurtlePage": {
+      "chunks": [],
+      "assets": [],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "children": []
+}

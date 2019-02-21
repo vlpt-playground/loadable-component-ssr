@@ -1,0 +1,8 @@
+.ImageViewer {
+  margin-top: 1rem;
+}
+
+.ImageViewer img {
+  width: 400px;
+  height: auto;
+}

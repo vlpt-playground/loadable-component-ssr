@@ -1,28 +1,21 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import SelectAnimals from './components/SelectAnimals';
+import { Route } from 'react-router-dom';
+import loadable from '@loadable/component';
+import RouteListener from './containers/RouteListener';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+const RabbitPage = loadable(() => import('./pages/RabbitPage'));
+const TurtlePage = loadable(() => import('./pages/TurtlePage'));
+
+const App = () => {
+  return (
+    <>
+      <SelectAnimals />
+      <Route path="/rabbit" component={RabbitPage} />
+      <Route path="/turtle" component={TurtlePage} />
+      <RouteListener />
+    </>
+  );
+};
 
 export default App;

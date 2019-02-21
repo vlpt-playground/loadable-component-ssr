@@ -1,0 +1,6 @@
+.SelectAnimals {
+  margin-bottom: 1rem;
+}
+.SelectAnimals a + a {
+  margin-left: 1rem;
+}
